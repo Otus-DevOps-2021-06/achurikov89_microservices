@@ -7,6 +7,7 @@ packer/variables.json
 *.retry
 jdauphant.nginx
 vault.key
+.env
 
 # Vagrant & molecule
 .vagrant/
