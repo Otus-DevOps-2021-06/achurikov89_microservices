@@ -39,3 +39,20 @@ achurikov89 microservices repository
 - Установка k8s на двух нодах при помощи утилиты kubeadm
 - Установка сетевого плагина Calico
 - Проверка статусов нод и подов
+
+## DZ kubernetes-2
+- Развертывание локальное окружение для работы с Kubernetes
+- Развертывание Kubernetes в Yandex Cloud
+- Запуск reddit в Kubernetes
+
+
+## DZ kubernetes-3
+- Ingress Controller
+- Ingress
+- Secret
+- TLS
+- LoadBalancer Service
+- Network Policies
+- PersistentVolumes
+- PersistentVolumeClaims
+
