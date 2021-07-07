@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata: # Блок метаданных деплоя
@@ -7,7 +6,7 @@ metadata: # Блок метаданных деплоя
     app: reddit
     component: ui
 spec: # Блок спецификации деплоя
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: reddit
@@ -20,7 +19,7 @@ spec: # Блок спецификации деплоя
         component: ui
     spec:
       containers:
-      - image: achurikov89/ui # Не забудьте подставить свой образ
+      - image: achurikov89/ui:logging # Не забудьте подставить свой образ
         name: ui
         env:
         - name: ENV
