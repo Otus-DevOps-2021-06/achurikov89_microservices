@@ -10,6 +10,7 @@ vault.key
 .env
 kubernetes/reddit/tls.crt
 kubernetes/reddit/tls.key
+kubernetes/gitlab-ci
 
 # Vagrant & molecule
 .vagrant/
