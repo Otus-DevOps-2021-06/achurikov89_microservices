@@ -56,3 +56,13 @@ achurikov89 microservices repository
 - PersistentVolumes
 - PersistentVolumeClaims
 
+## DZ kubernetes-4
+- Работа с Helm
+- Развертывание Gitlab в Kubernetes
+- Запуск CI/CD конвейера в Kubernetes
+
+## DZ kubernetes-5
+- Развертывание Prometheus в k8s
+- Настройка Prometheus и Grafana для сбора метрик
+- Настройка EFK для сбора логов
+
